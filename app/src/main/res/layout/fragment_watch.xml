@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main_layout"
+        android:background="@color/light"
+        tools:context=".UI.WatchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+            android:id="@+id/time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:layout_gravity="top"
+            android:layout_marginTop="10dp"
+            android:visibility="visible"
+            tools:text="qwerty"/>
+
+
+    <LinearLayout
+            android:id="@+id/inputLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/dark">
+
+        <EditText
+                android:id="@+id/editMinutes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="minutes"
+                android:inputType="time"
+                android:textColor="@color/light"
+                android:textSize="@dimen/tileSize"
+                android:text="5" />
+
+        <EditText
+                android:id="@+id/editSecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tileSize"
+                android:hint="seconds"
+                android:textColor="@color/light"
+                android:inputType="time"
+                android:text="0" />
+
+        <EditText
+                android:id="@+id/editAdditionally"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/light"
+                android:textSize="@dimen/tileSize"
+                android:hint="additionally"
+                android:inputType="time"
+                android:text="10" />
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:textColor="@color/light"
+            android:textSize="@dimen/watchSize"
+            android:layout_marginBottom="10dp" />
+
+</FrameLayout>

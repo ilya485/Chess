@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Chess</string>
+    <!-- TODO: Replace "user_name" spot@chess.com -->
+    <string name="user_name">       spot@chess.com          </string>>
+    <string name="nav_together">    Грайте разом </string>
+    <string name="nav_comp">        Грати проти комп’ютера </string>
+    <string name="nav_online">      Грати локальною мережею </string>
+    <string name="nav_rules">       Правила </string>
+    <string name="nav_support">     Підтримка </string>
+    <string name="nav_help">        Допомога </string>
+    <string name="nav_watch">       Шаховий годинник </string>
+    <string name="nav_instruction"> Інструкція </string>
+    <string name="nav_open_drawer"> Відкрийте панель навігації </string>
+    <string name="nav_close_drawer">Закрийте панель навігації </string>
+    <string name="start">           Почни гру </string>
+    <string name="rule">            Редактор дошки </string>
+    <string name="time">            Бліц </string>
+    <string name="start_count">     Почати відлік</string>
+    <string name="watch_hint">      Введіть час гри в хвилинах та секундах та додатковий час в секундах</string>
+    <string name="restart">         Почати гру заново  </string>
+    <string name="nav_static">      Статистика</string>
+    <string name="timeIsOut">      Час вичерпано</string>
+
+    <string name="nav_feedback">Giv us feedback</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

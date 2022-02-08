@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+                android:id="@+id/nav_stat"
+                android:title="@string/nav_static"
+                android:checked="true"
+                />
+        <item
+            android:id="@+id/nav_together"
+            android:title="@string/nav_together"
+            />
+        <item
+            android:id="@+id/nav_online"
+            android:title="@string/nav_online"
+            />
+        <item
+            android:id="@+id/nav_watch"
+            android:title="@string/nav_watch"
+            />
+        <item
+            android:id="@+id/nav_instruction"
+            android:title="@string/nav_instruction"
+            />
+    </group>
+
+</menu>

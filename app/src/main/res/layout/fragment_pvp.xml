@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.PvpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Switch
+        android:id="@+id/rule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/rule" />
+
+    <Switch
+        android:id="@+id/timeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/time" />
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:rotation="180"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="25sp" />
+
+    <include
+        android:id="@+id/game_board"
+        layout="@layout/game_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/time_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editMinutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="minutes"
+            android:inputType="time"
+            android:text="5"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="seconds"
+            android:inputType="time"
+            android:text="0"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editAdditionally"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="additionally"
+            android:inputType="time"
+            android:text="10"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/dark"
+        android:text="@string/start" />
+
+
+</LinearLayout>

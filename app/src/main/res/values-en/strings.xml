@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Chess</string>
+    <!-- TODO: Replace "user_name" spot@chess.com -->
+    <string name="user_name">       spot@chess.com          </string>>
+    <string name="nav_together">    Play together           </string>
+    <string name="nav_comp">        Play vs computer        </string>
+    <string name="nav_online">      Play online             </string>
+    <string name="nav_rules">       Rules                   </string>
+    <string name="nav_support">     Support                 </string>
+    <string name="nav_help">        Help                    </string>
+    <string name="nav_watch">       Chess watch             </string>
+    <string name="nav_instruction"> Instruction             </string>
+    <string name="nav_open_drawer"> Open navigation drawer  </string>
+    <string name="nav_close_drawer">Close navigation drawer </string>
+    <string name="start">           Start game              </string>
+    <string name="rule">            Board editor            </string>
+    <string name="time">            Blitz                   </string>
+    <string name="start_count">     Start the countdown     </string>
+    <string name="watch_hint">      Enter the playing time in minutes and seconds and extra time in seconds</string>
+    <string name="restart">         Restart game </string>
+    <string name="nav_static">      Statistic</string>
+
+
+    <string name="nav_feedback">Giv us feedback</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="timeIsOut">Time is out</string>
+</resources>

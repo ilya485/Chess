@@ -15,8 +15,6 @@ import android.view.View.OnTouchListener
 
 
 
-
-
 class WatchFragment : Fragment() {
 
     private var seconds: Long = 0
